@@ -115,7 +115,7 @@ class Tablero {
 
     public Tablero() {
         tablero = new char[5][5];
-        barcos = new Barco[2]; // Solo 2 barcos
+        barcos = new Barco[2]; 
         numeroBarcos = 0;
 
         for (int i = 0; i < 5; i++) {
